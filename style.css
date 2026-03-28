@@ -9,3 +9,8 @@
 .footer{
     background-color: beige;
 }
+
+.footer-img{
+    weight: 100px;
+    height: 100px;
+}
