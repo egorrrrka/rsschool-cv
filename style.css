@@ -1,7 +1,69 @@
-body {
-font-family: Arial, sans-serif;
-line-height: 1.6;
-color: #333;
-background-color: #f45;
-padding: 20px;
+.nav-list{
+    color: darkblue;
+}
+
+body{
+    background-color: rgb(255, 239, 220);
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.30);
+}
+
+.info p{
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.contacts{
+
+}
+
+.box-model{
+    float: left;
+}
+
+.container-main{
+    width: 750px;
+    margin: auto;
+
+}
+
+.header{
+    background-color: #9B9DB0;
+}
+
+.main{
+    background-color: antiquewhite;
+}
+
+.footer{
+    background-color: #9CB4A7;
+}
+
+.footer-img{
+    width: 100px;
+    height: 100px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.conteiner{
+    max-width: 750px;
+    margin: 0 auto;
 }
